@@ -1,0 +1,37 @@
+# General Node.js & System
+node_modules/
+.pnp/
+.pnp.js
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Strapi CMS
+strapi-cms/node_modules/
+strapi-cms/.cache/
+strapi-cms/.tmp/
+strapi-cms/.strapi-updater.json
+strapi-cms/build/ # Or dist/ if it uses that
+#!strapi-cms/.env # Keep this one
+#strapi-cms/.env.* #If you have other .env files
+
+# Next.js Frontend
+next-frontend/node_modules/
+next-frontend/.next/
+next-frontend/out/
+next-frontend/build/ # Or dist/
+#!next-frontend/.env # Keep this one
+#next-frontend/.env.* #If you have other .env files
+
+# Nest Favorites Service
+nest-favorites-service/node_modules/
+nest-favorites-service/dist/
+nest-favorites-service/build/
+nest-favorites-service/coverage/
+#!nest-favorites-service/.env # Keep this one
+#nest-favorites-service/.env.* #If you have other .env files
+
+# Database Data
+postgres-data
