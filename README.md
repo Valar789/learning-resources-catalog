@@ -19,7 +19,7 @@ The project consists of the following services:
 
 The easiest way to start all services is using Docker Compose.
 
-1.  **Clone the repository** (if you haven't already).
+1.  **Clone the repository** ([if you haven't already](https://github.com/Valar789/learning-resources-catalog)).
 2.  **Navigate to the project root** where the `docker-compose.yml` file is located.
 3.  **Run the following command** in your terminal:
 
